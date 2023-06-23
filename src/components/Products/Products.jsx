@@ -5,7 +5,7 @@ const Products = ({products,headingText}) => {
     return <div className="products-container">
         <div className="sec-heading">{headingText}</div>
         <div className="products">
-            {products.data.map((item)=>
+            {products?.data?.map((item)=>
                 <Product
                     key={item.id}
                     id={item.id}
