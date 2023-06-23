@@ -1,0 +1,24 @@
+.sec-heading {
+    color: #8e2de2;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 3rem auto 2rem;
+}
+button{
+    margin: auto;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    height: 40px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background: #8e2de2;
+    border-bottom: 3px solid #6516aa;
+}
